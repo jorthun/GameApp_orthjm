@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Game"
+    tools:layout_editor_absoluteY="25dp">
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="60dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:onClick="exitGame"
+        android:text="Exit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="60dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:onClick="trySolution"
+        android:text="GO!"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TableLayout
+        android:id="@+id/tableLayout3"
+        android:layout_width="396dp"
+        android:layout_height="241dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/row1">
+
+            <Button
+                android:id="@+id/c1r1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/blanktile"
+                tools:layout_editor_absoluteX="130dp"
+                tools:layout_editor_absoluteY="30dp" />
+
+            <Button
+                android:id="@+id/c2r1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/blanktile"
+                tools:layout_editor_absoluteX="130dp"
+                tools:layout_editor_absoluteY="30dp" />
+
+            <Button
+                android:id="@+id/c3r1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/blanktile"
+                tools:layout_editor_absoluteX="130dp"
+                tools:layout_editor_absoluteY="30dp" />
+
+            <Button
+                android:id="@+id/c4r1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/blanktile"
+                tools:layout_editor_absoluteX="130dp"
+                tools:layout_editor_absoluteY="30dp" />
+
+            <Button
+                android:id="@+id/c5r1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/blanktile"
+                tools:layout_editor_absoluteX="130dp"
+                tools:layout_editor_absoluteY="30dp" />
+
+            <Button
+                android:id="@+id/c6r1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/blanktile"
+                tools:layout_editor_absoluteX="130dp"
+                tools:layout_editor_absoluteY="30dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/row2"
+            >
+
+            <Button
+                android:id="@+id/c1r2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/blanktile"
+                tools:layout_editor_absoluteX="130dp"
+                tools:layout_editor_absoluteY="90dp" />
+
+            <Button
+                android:id="@+id/c2r2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/blanktile"
+                tools:layout_editor_absoluteX="130dp"
+                tools:layout_editor_absoluteY="90dp" />
+
+            <Button
+                android:id="@+id/c3r2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/blanktile"
+                tools:layout_editor_absoluteX="130dp"
+                tools:layout_editor_absoluteY="90dp" />
+
+            <Button
+                android:id="@+id/c4r2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/blanktile"
+                tools:layout_editor_absoluteX="130dp"
+                tools:layout_editor_absoluteY="90dp" />
+
+            <Button
+                android:id="@+id/c5r2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/blanktile"
+                tools:layout_editor_absoluteX="130dp"
+                tools:layout_editor_absoluteY="90dp" />
+
+            <Button
+                android:id="@+id/c6r2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/blanktile"
+                tools:layout_editor_absoluteX="130dp"
+                tools:layout_editor_absoluteY="90dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/row3"
+            >
+
+            <Button
+                android:id="@+id/c1r3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/blanktile"
+                tools:layout_editor_absoluteX="130dp"
+                tools:layout_editor_absoluteY="150dp" />
+
+            <Button
+                android:id="@+id/c2r3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/blanktile"
+                tools:layout_editor_absoluteX="130dp"
+                tools:layout_editor_absoluteY="150dp" />
+
+            <Button
+                android:id="@+id/c3r3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/blanktile"
+                tools:layout_editor_absoluteX="130dp"
+                tools:layout_editor_absoluteY="150dp" />
+
+            <Button
+                android:id="@+id/c4r3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/blanktile"
+                tools:layout_editor_absoluteX="130dp"
+                tools:layout_editor_absoluteY="150dp" />
+
+            <Button
+                android:id="@+id/c5r3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/blanktile"
+                tools:layout_editor_absoluteX="130dp"
+                tools:layout_editor_absoluteY="150dp" />
+
+            <Button
+                android:id="@+id/c6r3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/blanktile"
+                tools:layout_editor_absoluteX="130dp"
+                tools:layout_editor_absoluteY="150dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/row4"
+            >
+
+            <Button
+                android:id="@+id/c1r4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/blanktile"
+                tools:layout_editor_absoluteX="130dp"
+                tools:layout_editor_absoluteY="210dp" />
+
+            <Button
+                android:id="@+id/c2r4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/blanktile"
+                tools:layout_editor_absoluteX="130dp"
+                tools:layout_editor_absoluteY="210dp" />
+
+            <Button
+                android:id="@+id/c3r4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/blanktile"
+                tools:layout_editor_absoluteX="130dp"
+                tools:layout_editor_absoluteY="210dp" />
+
+            <Button
+                android:id="@+id/c4r4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/blanktile"
+                tools:layout_editor_absoluteX="130dp"
+                tools:layout_editor_absoluteY="210dp" />
+
+            <Button
+                android:id="@+id/c5r4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/blanktile"
+                tools:layout_editor_absoluteX="130dp"
+                tools:layout_editor_absoluteY="210dp" />
+
+            <Button
+                android:id="@+id/c6r4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/blanktile"
+                tools:layout_editor_absoluteX="130dp"
+                tools:layout_editor_absoluteY="210dp" />
+        </TableRow>
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/imageCircle"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/tableLayout3"
+        app:layout_constraintTop_toTopOf="@+id/tableLayout3"
+        app:srcCompat="@drawable/circleyellow" />
+
+    <Button
+        android:id="@+id/rightArrowDragable"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/arrowrightgreen" />
+
+    <Button
+        android:id="@+id/leftArrowDragable"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/arrowleftgreen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rightArrowDragable" />
+
+    <Button
+        android:id="@+id/upArrowDragable"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/arrowupgreen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/leftArrowDragable" />
+
+    <Button
+        android:id="@+id/downArrowDragable"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/arrowdowngreen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/upArrowDragable" />
+
+
+</android.support.constraint.ConstraintLayout>
